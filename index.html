@@ -27,13 +27,14 @@
         (function($){
 
             "use strict";
-        
+            console.log('init-blob');
             var mypaper;
         
             $(document).ready(function() {
         
                 // initialize the paper animation
                 mypaper = new PaperWrap( $('#blob')[0] );
+                console.log($('#blob')[0])
         
                 // the footer
                 $(".footer .toggle").mouseenter(function() {
