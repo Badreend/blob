@@ -1,5 +1,4 @@
 
-<script type="text/javascript">
 
 (function($){
 
@@ -267,4 +266,3 @@ this.blurPath.fillColor= {
     }
 })(jQuery);
 
-    </script>    
